@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sintaxis y Selectores CSS, Interacción Humano Ordenador </title>
+</head>
+<body>
+   <header> <h1>Sintaxis y Selectores CSS, Interacción Humano Ordenador </h1> </header>
+
+   <nav>
+       <ul>
+          <li><a href="/index.html">Inicio </a></li>
+          <li><a href="">Temas</a>
+            <ol>
+                <li><a href="#sintaxis">Sintaxis y Selectores CSS</a></li>
+                <li><a href="#javascript">Interacción Humano Ordenador</a></li>
+            </ol>
+           </li>
+          <li><a href="">Recurso</a></li>
+          <li><a href="">Aprendizaje</a></li>
+          <li><a href="#acerca-de">Acerca de</a></li>
+       </ul>
+   </nav>
+
+
+   <main>
+
+        <section>
+            <h2> Proposito del Sitio  </h2>
+
+            <p>
+                A raíz de la pandemia del COVID-19 la educación virtual ha venido a
+                suplir la necesidad de la presencialidad, siendo usado por todas las
+                instituciones educativas, esto ha traído como resultado la necesidad de
+                elaborar recursos educativos digitales para dinamizar las estrategias de
+                aprendizaje, el proposito de este sitio es suplir esa necesidad con temas de tecnologia como el diseño web.
+            </p>
+        </section>
+        <hr>
+        <!-- Temas numero 1 -->
+        <section>
+            <article id="sintaxis">
+                <h2> Tema 1 - Sintaxis CSS </h2>
+                    <p>
+                        La meta básica del lenguaje Cascading Stylesheet (CSS) es permitir al motor del navegador pintar elementos de la página con características específicas, como colores, posición o decoración. La sintaxis CSS refleja estas metas y estos son los bloques básicos de construcción
+                    </p>
+                    <ul>
+                        <li>La <strong>propiedad</strong> que es un identificador, un nombre leíble por humanos, que define qué característica es considerada.</li>
+                        <br>
+                        <li>El <strong>valor</strong>  que describe como las características deben ser manejadas por el motor. Cada propiedad tiene un conjunto de valores válidos, definido por una gramática formal, así como un significado semántico, implementados por el motor del navegador.</li>
+                    </ul>
+            </article>
+
+            <article>
+                <h2> - Declaraciones de CSS </h2>
+                <p>Configurando propiedades CSS a valores específicos es la función principal del lenguaje del CSS. Una propiedad y su valor son llamados una declaración, y cualquier motor de CSS calcula qué <strong> declaraciones </strong> aplican a cada uno de los elementos de una página para mostralos apropiadamente y estilizarlos. </p>
+
+                <img src="../img/css syntax - declaration.png" alt="imagen-declaracion-css">
+            </article>
+
+            <article>
+                <h2> - Sets de reglas CSS </h2>
+
+                <p>Si cada hoja de estilos pudiera aplicar una sól declaración a cada elemento de una página web, sería algo inútil. El verdadero objetivo es aplicar varias declaraciones a distintas partes del documento.</p>
+
+                <br>
+
+                <p>CSS permite esto asociando condiciones con bloques de declaraciones. Cada declaración (válida) es precedida por un selector, es decir, una condición que selecciona algunos elementos de la página. El bloque que forma el par selector-declaraciones recibe el nombre de  <strong>set de reglas</strong> , o simplemente una <strong>regla</strong>. </p>
+
+                <img src="../img/css syntax - ruleset.png" alt="imagen-reglas-css">
+            </article>
+
+            <p>Fuente</p>
+            <blockquote>MDN Web Docs
+                <footer><a href="https://developer.mozilla.org/es/docs/Web/CSS/Syntax" target="_blank">
+                    https://developer.mozilla.org/es/docs/Web/CSS/Syntax </a> </footer>
+            </blockquote>
+        </section>
+   <!-- Temas numero 2 -->
+       <br>
+       <hr>
+        <section>
+            <h2  id="javascript"> Tema 2 - Interacción Humano Ordenador - JavaScript </h2>
+            <article>
+                <p>
+                    JavaScript (JS) es un lenguaje de programación ligero, interpretado, o compilado justo-a-tiempo (just-in-time) con funciones de primera clase. Si bien es más conocido como un lenguaje de scripting (secuencias de comandos) para páginas web, y es usado en muchos entornos fuera del navegador, tal como Node.js, Apache CouchDB y Adobe Acrobat. JavaScript es un lenguaje de programación basada en prototipos, multiparadigma, de un solo hilo, dinámico, con soporte para programación orientada a objetos, imperativa y declarativa (por ejemplo programación funcional). Lee más en acerca de JavaScript.
+                </p>
+
+                <p>
+                    El estándar para JavaScript es ECMAScript. A partir del 2012, todos los navegadores modernos soportan completamente ECMAScript 5.1. Los navegadores viejos soportan al menos ECMAScript 3. Desde Junio 17, 2015, ECMA International publico la sexta versión principal de ECMAScript, que oficialmente se llama ECMAScript 2015, y que inicialmente se denominó ECMAScript 6 o ES6. Desde entonces, los estándares ECMAScript están en ciclos de lanzamiento anuales. Esta documentación hace referencia a la última versión preliminar, que actualmente es ECMAScript 2020.
+                </p>
+
+                <h3>Primeros Pasos </h3>
+                    <h4> ¿Qué es una variable? </h4>
+                    <p> Una variable es un contenedor para un valor, como un número que podríamos usar en una suma, o una cadena que podríamos usar como parte de una oración. Pero una cosa especial acerca de las variables es que los valores que contienen pueden cambiar. Veamos un sencillo ejemplo: </p>
+
+                    <p>Para usar una variable, primero debes crearla — precisamente, a esto lo llamamos declarar la variable. Para hacerlo, escribimos la palabra clave var o let seguida del nombre con el que deseas llamar a tu variable:</p>
+                <img src="../img/variable-js.png" alt="">
+
+                <p>Aquí estamos creando dos variables llamadas myName y myAge. Intenta escribir estas líneas en la consola de tu navegador web. Después de eso, intenta crear una variable (o dos) eligiendo tú su nombre.</p>
+
+
+                <h3> Tipos de Varables </h3>
+
+                <p>Hay algunos tipos de datos diferentes que podemos almacenar en variables. En esta sección, los describiremos brevemente, luego, en artículos futuros, aprenderás más detalles.
+
+                Hasta ahora hemos analizado los dos primeros, pero hay otros.</p>
+
+                <h4>Números </h4>
+                    <p>Puedes almacenar números en variables, ya sea números enteros como 30 (también llamados enteros — "integer") o números decimales como 2.456 (también llamados números flotantes o de coma flotante — "number"). No es necesario declarar el tipo de las variables en JavaScript, a diferencia de otros lenguajes de programación. Cuando le das a una variable un valor numérico, no incluye comillas:</p>
+                    <img src="../img/numeros.png" alt="numeros-js">
+                <h4> Cadena de Caracteres </h4>
+                <p>Las strings (cadenas) son piezas de texto. Cuando le das a una variable un valor de cadena, debes encerrarlo entre comillas simples o dobles; de lo contrario, JavaScript intenta interpretarlo como otro nombre de variable.</p>
+                <img src="../img/string.png" alt="string-js">
+                <h4> Booleanos </h4>
+                <p>Los booleanos son valores verdadero/falso — pueden tener dos valores, true o false. Estos, generalmente se utilizan para probar una condición, después de lo cual se ejecuta el código según corresponda. Así, por ejemplo, un caso simple sería:</p>
+                <img src="../img/boolean.png" alt="boolean-js">
+            </article>
+            <p>Fuente</p>
+            <blockquote>MDN Web Docs
+                <footer><a target="_blank" href="https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Variables">
+                    https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Variables </a> </footer>
+            </blockquote>
+        </section>
+   
+        <section>
+            <h3>Mockup Pagina </h3>
+            <img src="../img/Mockup pagina.png" 
+                  alt="mockup-page" 
+                  height="700px"
+                  width="700px"
+                  >
+        </section>
+
+   
+    </main>
+   <hr>
+   <br>
+   <footer id="acerca-de"> 
+       Correo<a href=""> mnhernandezu@unadvirtual.edu.co </a> <br>
+       Skype:<a href=""> mnicolazamhu@gmail.com </a> <br>
+       <strong>  Fecha 24/09/2021 </strong>
+
+   </footer>
+
+
+</body>
+</html>
