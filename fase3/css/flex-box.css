@@ -1,0 +1,96 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+ background-color: darkcyan;
+ font-size: 22px;
+}
+.container{
+    background-color: darkcyan;
+    display: inline-flexbox;
+    
+}
+
+.container-articles{
+    display: flex;
+    border: thin solid rgb(171, 171, 175);
+    border-radius: 5px;
+}
+
+.item{
+    background-color: yellowgreen;
+    border-radius: 5px;
+    border: thin solid black;
+}
+
+.imgs{
+   display: block;
+   margin: auto;
+   height: 250px;
+   width:  250px;
+   border-radius: 50%;
+}
+
+.text-encabezado{
+    text-align: center;
+}
+
+.menu li a{
+    font-size: 25px;
+    color: honeydew;
+}
+
+.prop-valor{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.prop-valor p{
+    width: 48%;
+    margin-right: 5px;
+    border: thick solid tan;
+}
+
+.declaracion-css {
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.declaracion-css *{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 35%;
+    margin: auto;
+    text-align: justify;
+}
+
+.reglas-css{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img{
+    border-radius: 10px;
+}
+
+.autor *{
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   text-align: center;
+   font-size: 32px;
+
+}
+
+.autor img{
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+ }
+

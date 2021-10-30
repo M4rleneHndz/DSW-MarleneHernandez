@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/flex-box.css">
+    <title>Sintaxis CSS</title>
+</head>
+<body>
+    <main>
+        <article id="sintaxis">
+            <h1 class="text-encabezado"> Sintaxis CSS </h1>
+                <p>
+                    La meta básica del lenguaje Cascading Stylesheet (CSS) es permitir al motor del navegador pintar elementos de la página con características específicas, como colores, posición o decoración. La sintaxis CSS refleja estas metas y estos son los bloques básicos de construcción
+                </p>
+                <ul class="prop-valor">
+                    <p>La <strong>propiedad</strong> que es un identificador, un nombre leíble por humanos, que define qué característica es considerada.</p>
+                    <br>
+                    <p>El <strong>valor</strong>  que describe como las características deben ser manejadas por el motor. Cada propiedad tiene un conjunto de valores válidos, definido por una gramática formal, así como un significado semántico, implementados por el motor del navegador.</p>
+                </ul>
+        </article>
+
+        <article class="declaracion-css">
+            <h2 class="text-encabezado"> Declaraciones de CSS </h2>
+            <p>Configurando propiedades CSS a valores específicos es la función principal del lenguaje del CSS. Una propiedad y su valor son llamados una declaración, y cualquier motor de CSS calcula qué declaraciones aplican a cada uno de los elementos de una página para mostralos apropiadamente y estilizarlos. </p>
+
+            <img style="width: 25%;" src="../../img/css syntax - declaration.png" alt="imagen-declaracion-css">
+        </article>
+
+        <article class="reglas-css">
+            <h2 class="text-encabezado"> - Sets de reglas CSS </h2>
+
+            <p>Si cada hoja de estilos pudiera aplicar una sól declaración a cada elemento de una página web, sería algo inútil. El verdadero objetivo es aplicar varias declaraciones a distintas partes del documento.</p>
+
+            <br>
+
+            <p>CSS permite esto asociando condiciones con bloques de declaraciones. Cada declaración (válida) es precedida por un selector, es decir, una condición que selecciona algunos elementos de la página. El bloque que forma el par selector-declaraciones recibe el nombre de  <strong>set de reglas</strong> , o simplemente una <strong>regla</strong>. </p>
+
+            <img class="img" src="../../img/css syntax - ruleset.png" alt="imagen-reglas-css">
+        </article>
+
+        <p>Fuente</p>
+        <blockquote>MDN Web Docs
+            <footer><a href="https://developer.mozilla.org/es/docs/Web/CSS/Syntax" target="_blank">
+                https://developer.mozilla.org/es/docs/Web/CSS/Syntax </a> </footer>
+        </blockquote>
+    </main>
+</body>
+</html>
